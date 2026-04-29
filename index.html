@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Eyasu Jida | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <nav class="navbar">
+      <div class="logo">Eyasu Jida</div>
+      <ul>
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="main-content">
+      <section id="home" class="section visible">
+        <div class="home-flex">
+          <div class="home-details">
+            <h1 class="glow-title">Eyasu Jida</h1>
+            <p class="subtitle">Computer Science Student & Web Developer</p>
+            <p class="intro">
+              I’m passionate about web development and software design. I build responsive, user-friendly applications using HTML, CSS, and JavaScript.<br>
+              Always eager to learn, I enjoy taking on new challenges and building meaningful tech solutions that make an impact.
+            </p>
+            <div class="icons">
+              <a href="https://www.linkedin.com/in/eyasu-jida-b5b04b407" target="_blank" class="icon-link glow-link"><img src="linkedin.svg" alt="LinkedIn"></a>
+              <a href="https://github.com/eyujoshj-afk" target="_blank" class="icon-link glow-link"><img src="github.svg" alt="GitHub"></a>
+            </div>
+          </div>
+          <div class="profile-photo">
+            <img src="profile.jpg" alt="Eyasu Jida">
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>
+          I am a Computer Science student with a strong passion for web development and software design.
+          I specialize in building responsive and user-friendly web applications using HTML, CSS, and JavaScript.
+          I’ve worked on a variety of projects, including scheduling systems and personal portfolio websites, which have helped me strengthen both my technical and design skills.
+          I’m always eager to learn, take on new challenges, and contribute to meaningful tech solutions that make a real impact.
+        </p>
+        <h3 style="margin-top:2.4em;">Experience</h3>
+        <div class="glow-card">
+          <strong>Internship: SINKE Bank</strong>
+          <ul>
+            <li>Supported computer and network maintenance activities during the internship.</li>
+            <li>Learned practical IT support workflows and maintenance procedures.</li>
+            <li>Developed foundational skills in maintaining and supporting IT infrastructure.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="services" class="section">
+        <h2>Major Projects & Services</h2>
+        <div class="services-list">
+          <div class="glow-card">
+            <h3>major services </h3>
+            <p class="service-detail">service</p>
+            <ul>
+              <li>Web Design</li>
+              <li>Design Thinking.</li>
+              <li>Front End Coding</li>
+              <li>Problem-Solving.</li>
+              <li>editing.</li>
+              <li>adobe premiere .</li>
+            </ul>
+          </div>
+          <div class="glow-card">
+            <h3>skills</h3>
+            <ul>
+              <li>html</li>
+              <li>css.</li>
+              <li>javascript.</li>
+              <li>react.</li>
+              <li>mysql.</li>
+            </ul>
+          </div>
+          <div class="glow-card">
+            <h3>More Services</h3>
+            <ul>
+              <li>Personal Portfolio Sites</li>
+              <li>Website Maintenance & Redesign</li>
+              <li>UI/UX Design (HTML/CSS/JS)</li>
+              <li>Social Media Management</li>
+              <li>graphic design.</li>
+              <li>adobe photoshop</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <div class="contact-flex">
+          <div>
+            <div class="contact-info">
+              <strong>Phone:</strong> 0969176998 / 0769176998<br>
+              <strong>Email:</strong> <a href="mailto:eyujoshj@gmail.com" class="glow-link">eyasu@example.com</a> <!-- (sample, set your real email if you want) -->
+              <br>
+              <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/eyasu-jida-b5b04b407" class="glow-link" target="_blank">eyasu-jida-b5b04b407</a><br>
+              <strong>GitHub:</strong> <a href="https://github.com/eyujoshj-afk" class="glow-link" target="_blank">eyujoshj-afk</a>
+            </div>
+          </div>
+          <form class="contact-form" onsubmit="return false;">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="4" placeholder="Your Message" required></textarea>
+            <button class="glow-link" type="submit" onclick="alert('Message sending is disabled on this demo.');">Send Message</button>
+          </form>
+        </div>
+      </section>
+
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
